@@ -1,0 +1,38 @@
+.container {
+  background-color: #D43E3E;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 4px;
+  color: white;
+}
+
+
+.firstLine {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0 auto;
+  color: #D43E3E;
+  margin-top: 20px;
+}
+
+img:hover {
+  box-shadow: 5px 5px 5px 5px grey;
+  cursor: pointer;
+}
+
+#pb1{
+  margin: auto;
+  color: red;
+}
+
+#pb2 {
+  margin: auto;
+  color: red;
+}
+
+#pb3 {
+  margin: auto;
+  color: red;
+}

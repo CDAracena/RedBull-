@@ -10,7 +10,7 @@ myPromise.then(function(response) {
   let POHandle = response.data.products;
 
   let product1 = POHandle[6].images[1].src;
-  let product2 = POHandle[8].images[3].src;
+  let product2 = POHandle[8].images[1].src;
   let product3 = POHandle[10].images[0].src;
 
   let productTitle1 = POHandle[6].title;
